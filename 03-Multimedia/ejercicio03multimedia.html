@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contenido Multimedia</title>
+    </head>
+    <body>
+        <div>
+            <h1>Aprendiendo a utilizar imágenes</h1>
+            <img src="multimedia/kingdom.png" width="400" height="550"/>
+        </div>
+        <br>
+        <div>
+            <h1>Aprendiendo a utilizar los vídeos</h1>
+            <video src="multimedia/gato.mp4.mp4" width="500" height="400" controls autoplay muted loop></video>
+        </div>
+        <br>
+        <div>
+            <h1>Aprendiendo a utilizar los audios</h1>
+            <audio controls autoplay loop>
+                <!--No me funciona la reproducción automática en el audio, según la información que 
+                estuve mirando es el propio navegador el que me bloquea el autoplay por considerarse 
+                mala praxis, intento incluir atributo muted, defaultMuted y playsinline pero tampoco-->
+               <source src="multimedia/Antoñito Molina.mp3" type="audio/mp3" />
+            </audio>
+        </div>
+    </body>
+</html>
